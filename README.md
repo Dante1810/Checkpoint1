@@ -6,7 +6,7 @@
  * Desarrollo
  * Demo
 ## proyecto tren ligero
-- Puntos
+### Puntos
  * Header
  * Main
  * Linea 1
