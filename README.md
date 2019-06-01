@@ -1,4 +1,4 @@
-# Checkpoint 1                                           #### 1 de Junio del 2019
+# Checkpoint 1                                         
 ## Puntos del Proyectos
  * Trello
  * Spring Meeting
@@ -20,4 +20,5 @@
  * SASS
 ## Review
 Terminando el proyectos se recibira un Feedback por parte del docente, ya sea en código, diseño o mejores practicas.
- 
+
+##### 1 de Junio del 2019
