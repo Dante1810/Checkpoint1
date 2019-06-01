@@ -1,11 +1,11 @@
-# Checkpoint1
+# Checkpoint 1                                           #### 1 de Junio del 2019
 ## Puntos del Proyectos
  * Trello
  * Spring Meeting
  * Repositorio en GitHub
  * Desarrollo
  * Demo
-## proyecto tren ligero
+## Proyecto tren ligero
 ### Puntos
  * Header
  * Main
@@ -19,5 +19,5 @@
  * Boostrap
  * SASS
 ## Review
-Terminando 
+Terminando el proyectos se recibira un Feedback por parte del docente, ya sea en código, diseño o mejores practicas.
  
