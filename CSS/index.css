@@ -34,3 +34,16 @@
     color: white;
     
 }
+/*Main*/
+.card-deck {
+    margin: 20px;
+    padding: 100px;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+  .content p {
+    flex-grow: 1;
+  }
