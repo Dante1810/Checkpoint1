@@ -1,2 +1,6 @@
 # Checkpoint1
-proyecto tren ligero
+## proyecto tren ligero
+- Temas a revisar
+ * Header
+ * Main
+ 
