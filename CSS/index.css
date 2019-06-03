@@ -1,38 +1,51 @@
-
-
-
 #carousel {
-    max-height: 70vh;
-    object-fit: cover;
-    filter: grayscale(50%);
-    position: relative;
-    margin-top: .5px;
+  max-height: 52vh;
+  object-fit: cover;
+  filter: grayscale(50%);
+  position: relative;
+  margin-top: .5px;
+  margin-bottom: .5px;
+}
+
+#carousel .carousel-inner img {
+max-height: 70vh;
+object-fit: cover;
+filter: grayscale(70%);
 }
 
 .overlay{
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    bottom: 0%;
-    right: 0%;
-    background-color: rgba(0,0,0,0.5);
-    color: white;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  bottom: 0%;
+  right: 0%;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
 }
 
-.imagen{
-    
-    display: inline-block;
-    text-align: center;
-    color: "transparent";
+#footer{
+background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
+color: white;
 }
- 
+
+
 .container{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    
+position: relative;
+top: 50%;
+left: 45%;
+transform: translate(-50%, -50%);
+color: white;
+}
+
+
+.footer .container{
+left: 45%;
+transform: translate(-50%, -2%);
+color: white;
+}
+
+.footer p{
+margin-top: .5px;
 }
 /*Main*/
 .card-deck {
