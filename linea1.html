@@ -10,6 +10,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link href="CSS/styles.css" rel="stylesheet" type="text/css">
         <link href="CSS/linea1.css" rel="stylesheet" type="text/css">
+        <link href="linea1-1.css" rel="stylesheet" type="text/css">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -17,6 +18,22 @@
 </head>
 
 <body>
+  <header>
+     <!--Header-->
+     <nav> 
+        <div class="navbar navbar-light bg-dark" id="nav">
+            <a href="index.html" class="navbar-brand"><img src="IMG/logo.png"></a>
+            <a class="nav-item nav-link" href="#">Sobre Nosostros</a>
+            <a class="nav-item nav-link" href="#">Contacto</a>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Linea" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+              </form>
+            </div>
+    </nav>
+    
+    <!--/Header-->
+  </header>
         <div class="container">
     <!--Main-->
  <main>
@@ -61,132 +78,179 @@
               </a>
             </div>
           </div>
-        </main>         
+        </main>     
+        <h1 class="mt-5 text-center">Estaciones</h1>
+        </div>    
     <!--/Main--> 
     <hr>
-    <div class="row">
-            <div class="col-4">
-              <div class="list-group" id="list-tab" role="tablist">
-                <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Auditorio</a>
-                <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Periferico Norte</a>
-                <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Dermatologico</a>
-                <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">División del Norte</a>
-              </div>
-            </div>
-            <div class="col-8">
-              <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">Auditorio es la primera estación de la Línea 1 del Tren Ligero de Guadalajara en sentido norte a sur, y la vigésima en sentido opuesto. Esta estación es subterránea.1​
-
-                        Esta estación se encuentra bajo el cruce de la Calzada Federalismo con la Calle Tratado de Tlatelolco, en el municipio de Zapopan. Su construcción se realizó junto con la de una rampa que sale a la superficie, la cual es usada como estacionamiento de trenes y como retorno para cambiar de sentido sur-norte al sentido opuesto. Esta nueva estación es la nueva terminal de la Línea 1 y forma parte del proyecto de renovación y expansión de dicha línea. La estación estuvo terminada desde hace más de año y medio y fue inaugurada el 22 de Noviembre del 2018 </div>
-                <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Periférico Norte es la segunda estación de la Línea 1 del Tren Ligero de Guadalajara en sentido norte a sur, y la décimo-novena en sentido opuesto. Esta estación es subterránea.
-
-                        La estación está bajo el cruce de la Calzada Federalismo con el Anillo Periférico Norte (al que alude su nombre). Dicha estación se encuentra en una zona estratégica, ya que se conecta con diversas rutas de autobús que atienden la demanda de los municipios de Zapopan, Guadalajara, Tonalá y Tlaquepaque.</div>
-                <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Dermatológico es la tercera estación de la Línea 1 del Tren Ligero de Guadalajara en sentido norte a sur, y la décimo-octava en sentido opuesto; se ubica en la Calzada del Federalismo a nivel de calle, por lo que es una de las dos estaciones superficiales en el extremo norte de dicha línea.
-
-                        Toma su nombre por el Instituto Dermatológico de Jalisco "Dr. José Barba Rubio" en el costado Oriente de la vía. El logotipo de la estación es una imagen estilizada de la fachada del instituto mencionado.</div>
-                <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
-              </div>
-            </div>
-          </div>
-          <hr>
-          <div class="row">
-                  <div class="col-4">
-                    <div class="list-group" id="list-tab" role="tablist">
-                      <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Ávila Camacho</a>
-                      <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Mezquitán</a>
-                      <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Refugio</a>
-                      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Juárez</a>
-                    </div>
-                  </div>
-                  <div class="col-8">
-                    <div class="tab-content" id="nav-tabContent">
-                      <div class="tab-pane fade" id="list-home" role="tabpanel" aria-labelledby="list-home-list">Auditorio es la primera estación de la Línea 1 del Tren Ligero de Guadalajara en sentido norte a sur, y la vigésima en sentido opuesto. Esta estación es subterránea.1​
+    
+    <hr>
+ 
+    <div class="list-group estaciones container-fluid">
       
-                              Esta estación se encuentra bajo el cruce de la Calzada Federalismo con la Calle Tratado de Tlatelolco, en el municipio de Zapopan. Su construcción se realizó junto con la de una rampa que sale a la superficie, la cual es usada como estacionamiento de trenes y como retorno para cambiar de sentido sur-norte al sentido opuesto. Esta nueva estación es la nueva terminal de la Línea 1 y forma parte del proyecto de renovación y expansión de dicha línea. La estación estuvo terminada desde hace más de año y medio y fue inaugurada el 22 de Noviembre del 2018 </div>
-                      <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Periférico Norte es la segunda estación de la Línea 1 del Tren Ligero de Guadalajara en sentido norte a sur, y la décimo-novena en sentido opuesto. Esta estación es subterránea.
-      
-                              La estación está bajo el cruce de la Calzada Federalismo con el Anillo Periférico Norte (al que alude su nombre). Dicha estación se encuentra en una zona estratégica, ya que se conecta con diversas rutas de autobús que atienden la demanda de los municipios de Zapopan, Guadalajara, Tonalá y Tlaquepaque.</div>
-                      <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Dermatológico es la tercera estación de la Línea 1 del Tren Ligero de Guadalajara en sentido norte a sur, y la décimo-octava en sentido opuesto; se ubica en la Calzada del Federalismo a nivel de calle, por lo que es una de las dos estaciones superficiales en el extremo norte de dicha línea.
-      
-                              Toma su nombre por el Instituto Dermatológico de Jalisco "Dr. José Barba Rubio" en el costado Oriente de la vía. El logotipo de la estación es una imagen estilizada de la fachada del instituto mencionado.</div>
-                      <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
-                    </div>
-                  </div>
-                </div>
-                <hr>
-                <div class="row">
-                        <div class="col-4">
-                          <div class="list-group" id="list-tab" role="tablist">
-                            <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Mexicatzingo</a>
-                            <hr>
-                            <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Washington</a>
-                            <hr>
-                            <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Santa Filomena</a>
-                            <hr>
-                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Unidad Deportiva</a>
-                            <hr>
-                          </div>
-                        </div>
-                        <div class="col-8">
-                          <div class="tab-content" id="nav-tabContent">
-                            <div class="tab-pane fade" id="list-home" role="tabpanel" aria-labelledby="list-home-list">Auditorio es la primera estación de la Línea 1 del Tren Ligero de Guadalajara en sentido norte a sur, y la vigésima en sentido opuesto. Esta estación es subterránea.1​
-            
-                                    Esta estación se encuentra bajo el cruce de la Calzada Federalismo con la Calle Tratado de Tlatelolco, en el municipio de Zapopan. Su construcción se realizó junto con la de una rampa que sale a la superficie, la cual es usada como estacionamiento de trenes y como retorno para cambiar de sentido sur-norte al sentido opuesto. Esta nueva estación es la nueva terminal de la Línea 1 y forma parte del proyecto de renovación y expansión de dicha línea. La estación estuvo terminada desde hace más de año y medio y fue inaugurada el 22 de Noviembre del 2018 </div>
-                            <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Periférico Norte es la segunda estación de la Línea 1 del Tren Ligero de Guadalajara en sentido norte a sur, y la décimo-novena en sentido opuesto. Esta estación es subterránea.
-            
-                                    La estación está bajo el cruce de la Calzada Federalismo con el Anillo Periférico Norte (al que alude su nombre). Dicha estación se encuentra en una zona estratégica, ya que se conecta con diversas rutas de autobús que atienden la demanda de los municipios de Zapopan, Guadalajara, Tonalá y Tlaquepaque.</div>
-                            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Dermatológico es la tercera estación de la Línea 1 del Tren Ligero de Guadalajara en sentido norte a sur, y la décimo-octava en sentido opuesto; se ubica en la Calzada del Federalismo a nivel de calle, por lo que es una de las dos estaciones superficiales en el extremo norte de dicha línea.
-            
-                                    Toma su nombre por el Instituto Dermatológico de Jalisco "Dr. José Barba Rubio" en el costado Oriente de la vía. El logotipo de la estación es una imagen estilizada de la fachada del instituto mencionado.</div>
-                            <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
-                          </div>
-                        </div>
-                      </div>
-                      <hr>
-                      <div class="row">
-                              <div class="col-4">
-                                <div class="list-group" id="list-tab" role="tablist">
-                                  <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Urdaneta</a>
-                                  <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">18 de Marzo</a>
-                                  <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Isla Raza</a>
-                                  <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">España</a>
-                                </div>
-                              </div>
-                              <div class="col-8">
-                                <div class="tab-content" id="nav-tabContent">
-                                  <div class="tab-pane fade" id="list-home" role="tabpanel" aria-labelledby="list-home-list">Auditorio es la primera estación de la Línea 1 del Tren Ligero de Guadalajara en sentido norte a sur, y la vigésima en sentido opuesto. Esta estación es subterránea.1​
-                  
-                                          Esta estación se encuentra bajo el cruce de la Calzada Federalismo con la Calle Tratado de Tlatelolco, en el municipio de Zapopan. Su construcción se realizó junto con la de una rampa que sale a la superficie, la cual es usada como estacionamiento de trenes y como retorno para cambiar de sentido sur-norte al sentido opuesto. Esta nueva estación es la nueva terminal de la Línea 1 y forma parte del proyecto de renovación y expansión de dicha línea. La estación estuvo terminada desde hace más de año y medio y fue inaugurada el 22 de Noviembre del 2018 </div>
-                                  <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Periférico Norte es la segunda estación de la Línea 1 del Tren Ligero de Guadalajara en sentido norte a sur, y la décimo-novena en sentido opuesto. Esta estación es subterránea.
-                  
-                                          La estación está bajo el cruce de la Calzada Federalismo con el Anillo Periférico Norte (al que alude su nombre). Dicha estación se encuentra en una zona estratégica, ya que se conecta con diversas rutas de autobús que atienden la demanda de los municipios de Zapopan, Guadalajara, Tonalá y Tlaquepaque.</div>
-                                  <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Dermatológico es la tercera estación de la Línea 1 del Tren Ligero de Guadalajara en sentido norte a sur, y la décimo-octava en sentido opuesto; se ubica en la Calzada del Federalismo a nivel de calle, por lo que es una de las dos estaciones superficiales en el extremo norte de dicha línea.
-                  
-                                          Toma su nombre por el Instituto Dermatológico de Jalisco "Dr. José Barba Rubio" en el costado Oriente de la vía. El logotipo de la estación es una imagen estilizada de la fachada del instituto mencionado.</div>
-                                  <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="row">
-                                    <div class="col-4">
-                                      <div class="list-group" id="list-tab" role="tablist">
-                                        <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Santuario</a>
-                                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Periferico</a>
-                                        </div>
-                                    </div>
-                                    <div class="col-8">
-                                      <div class="tab-content" id="nav-tabContent">
-                                        <div class="tab-pane fade" id="list-home" role="tabpanel" aria-labelledby="list-home-list">Auditorio es la primera estación de la Línea 1 del Tren Ligero de Guadalajara en sentido norte a sur, y la vigésima en sentido opuesto. Esta estación es subterránea.1​
-                        
-                                                Esta estación se encuentra bajo el cruce de la Calzada Federalismo con la Calle Tratado de Tlatelolco, en el municipio de Zapopan. Su construcción se realizó junto con la de una rampa que sale a la superficie, la cual es usada como estacionamiento de trenes y como retorno para cambiar de sentido sur-norte al sentido opuesto. Esta nueva estación es la nueva terminal de la Línea 1 y forma parte del proyecto de renovación y expansión de dicha línea. La estación estuvo terminada desde hace más de año y medio y fue inaugurada el 22 de Noviembre del 2018 </div>
-                                        <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Periférico Norte es la segunda estación de la Línea 1 del Tren Ligero de Guadalajara en sentido norte a sur, y la décimo-novena en sentido opuesto. Esta estación es subterránea.
-                        
-                                                La estación está bajo el cruce de la Calzada Federalismo con el Anillo Periférico Norte (al que alude su nombre). Dicha estación se encuentra en una zona estratégica, ya que se conecta con diversas rutas de autobús que atienden la demanda de los municipios de Zapopan, Guadalajara, Tonalá y Tlaquepaque.</div>
-                                      
-                                      </div>
-                                    </div>
-                                  </div>
-     </div>
+      <a  class="list-group-item list-group-item-action ">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Auditorio</h5>
+          
+        </div>
+        <p class="mb-1"></p>
+        <small>Donec id elit non mi porta.</small>
+      </a>
+      <a  class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Periferico Norte</h5>
+          
+        </div>
+        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+        <small class="text-muted">Donec id elit non mi porta.</small>
+      </a>
+      <a  class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Dematologico</h5>
+          
+        </div>
+        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+        <small class="text-muted">Donec id elit non mi porta.</small>
+      </a>
+      <a  class="list-group-item list-group-item-action ">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Atemajac</h5>
+          
+        </div>
+        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+        <small>Donec id elit non mi porta.</small>
+      </a>
+      <a class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Division del Norte</h5>
+          
+        </div>
+        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+        <small class="text-muted">Donec id elit non mi porta.</small>
+      </a>
+      <a  class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Avila Camachi</h5>
+          
+        </div>
+        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+        <small class="text-muted">Donec id elit non mi porta.</small>
+      </a>
+      <a href="#" class="list-group-item list-group-item-action ">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Mezquitan</h5>
+          
+        </div>
+        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+        <small>Donec id elit non mi porta.</small>
+      </a>
+      <a  class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Refugio</h5>
+          
+        </div>
+        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+        <small class="text-muted">Donec id elit non mi porta.</small>
+      </a>
+      <a class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Juarez</h5>
+          
+        </div>
+        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+        <small class="text-muted">Donec id elit non mi porta.</small>
+      </a>
+      <a  class="list-group-item list-group-item-action ">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Mexicatzingo</h5>
+        
+        </div>
+        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+        <small>Donec id elit non mi porta.</small>
+      </a>
+      <a  class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Washington</h5>
+          
+        </div>
+        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+        <small class="text-muted">Donec id elit non mi porta.</small>
+      </a>
+      <a  class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Santa Filomena</h5>
+          
+        </div>
+        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+        <small class="text-muted">Donec id elit non mi porta.</small>
+      </a>
+      <a  class="list-group-item list-group-item-action ">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Unidad Deportiva</h5>
+          
+        </div>
+        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+        <small>Donec id elit non mi porta.</small>
+      </a>
+      <a class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Urdaneta</h5>
+          
+        </div>
+        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+        <small class="text-muted">Donec id elit non mi porta.</small>
+      </a>
+      <a class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">18 de Marzo</h5>
+          
+        </div>
+        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+        <small class="text-muted">Donec id elit non mi porta.</small>
+      </a>
+      <a  class="list-group-item list-group-item-action ">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Isla Raza</h5>
+          
+        </div>
+        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+        <small>Donec id elit non mi porta.</small>
+      </a>
+      <a class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Patria</h5>
+          
+        </div>
+        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+        <small class="text-muted">Donec id elit non mi porta.</small>
+      </a>
+      <a  class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">España</h5>
+          
+        </div>
+        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+        <small class="text-muted">Donec id elit non mi porta.</small>
+      </a>
+      <a class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Cristo Rey</h5>
+          
+        </div>
+        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+        <small class="text-muted">Donec id elit non mi porta.</small>
+      </a>
+      <a class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Periferico Sur</h5>
+          
+        </div>
+        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+        <small class="text-muted">Donec id elit non mi porta.</small>
+      </a>
+    </div>
+
+     
  
     
     
